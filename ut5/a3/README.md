@@ -42,7 +42,7 @@ La plataforma permite al admininstrador:
 6. Explicar brevemente por qué existen esas relaciones. 
 
 
-![Diagrama de casos de uso](/img/001.PNG)
+![Diagrama de casos de uso](img/001.png)
 
 
 

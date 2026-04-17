@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://claude.ai/chat/501a30bf-667e-4e92-98ca-7145390cb999
+HostUrl=https://claude.ai/api/organizations/a3a8dd58-54a3-4cfe-be43-f3f3ec3ecb5c/conversations/501a30bf-667e-4e92-98ca-7145390cb999/wiggle/download-file?path=%2Fmnt%2Fuser-data%2Foutputs%2FCalculadoraNotasTest.java

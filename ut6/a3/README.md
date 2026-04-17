@@ -206,7 +206,7 @@ Posteriormente debes crear nuevos tests para comprobar también los siguientes c
 
 Tras añadir los nuevos tests debes volver a ejecutar los tests e intentar conseguir una cobertura mínima del 90%. A continuación inserta una captura de pantalla con el resultado de la cobertura de los test:
 
-![cobertura_test](img/cobertura.png)
+![cobertura_test](img/cobertura.PNG)
 
 ### Reflexión final
 
@@ -216,19 +216,23 @@ No estaba integrado un test en caso de array vacio y uno para cuando la nota est
 + ¿Qué tests has añadido?
 He añadido los test correspondientes a los problemas mencionados anteriormente:
 Para el array vacio
+```java
 @Test
 void testListaVacia(){
     assertThrows(IllegalArgumentException.class, () -> {
         CalculadoraNotas.calcularMedia(new int[]{});
     });
 }
+````
 Para fuera del rango
+```java
 @Test
 void testNotaFueraDeRango(){
     assertThrows(IllegalArgumentException.class, () -> {
         CalculadoraNotas.calcularMedia(new int[]{5, 11, 3});
     });
 }
+````
 
 + ¿Qué cobertura final has obtenido?
 Se ha alcanzado una cobertura superior al 90% que se pedia.

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: CarritoTest
 -------------------------------------------------------------------------------
-Tests run: 14, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.173 s <<< FAILURE! -- in CarritoTest
-CarritoTest.descuento_invalido_negativo -- Time elapsed: 0.013 s <<< FAILURE!
+Tests run: 14, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.172 s <<< FAILURE! -- in CarritoTest
+CarritoTest.descuento_invalido_negativo -- Time elapsed: 0.012 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: Un descuento negativo no debería aumentar el precio ==> expected: <true> but was: <false>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -10,11 +10,11 @@ org.opentest4j.AssertionFailedError: Un descuento negativo no debería aumentar 
 	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
 	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:210)
 	at CarritoTest.descuento_invalido_negativo(CarritoTest.java:68)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 
-CarritoTest.subtotal_variosProductos -- Time elapsed: 0.003 s <<< FAILURE!
+CarritoTest.subtotal_variosProductos -- Time elapsed: 0.002 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <70.0> but was: <40.0>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -23,9 +23,9 @@ org.opentest4j.AssertionFailedError: expected: <70.0> but was: <40.0>
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:81)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1010)
 	at CarritoTest.subtotal_variosProductos(CarritoTest.java:28)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 
 CarritoTest.total_envioGratis -- Time elapsed: 0.002 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <100.0> but was: <55.0>
@@ -36,11 +36,11 @@ org.opentest4j.AssertionFailedError: expected: <100.0> but was: <55.0>
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:81)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1010)
 	at CarritoTest.total_envioGratis(CarritoTest.java:123)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 
-CarritoTest.envio_subtotalIgualA100 -- Time elapsed: 0.002 s <<< FAILURE!
+CarritoTest.envio_subtotalIgualA100 -- Time elapsed: 0.004 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <0.0> but was: <5.0>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -49,9 +49,9 @@ org.opentest4j.AssertionFailedError: expected: <0.0> but was: <5.0>
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:81)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1010)
 	at CarritoTest.envio_subtotalIgualA100(CarritoTest.java:88)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 
 CarritoTest.descuento_invalido_mayor100 -- Time elapsed: 0.002 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: El precio tras descuento no puede ser negativo ==> expected: <true> but was: <false>
@@ -61,11 +61,11 @@ org.opentest4j.AssertionFailedError: El precio tras descuento no puede ser negat
 	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
 	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:210)
 	at CarritoTest.descuento_invalido_mayor100(CarritoTest.java:76)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 
-CarritoTest.total_sinDescuento_conEnvio -- Time elapsed: 0.002 s <<< FAILURE!
+CarritoTest.total_sinDescuento_conEnvio -- Time elapsed: 0.001 s <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <75.0> but was: <45.0>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -74,7 +74,7 @@ org.opentest4j.AssertionFailedError: expected: <75.0> but was: <45.0>
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:81)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1010)
 	at CarritoTest.total_sinDescuento_conEnvio(CarritoTest.java:105)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 
